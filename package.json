@@ -1,8 +1,9 @@
 {
-  "name": "nest-typescript-starter",
+  "name": "file-upload-server-nestjs",
   "version": "1.0.0",
-  "description": "Nest TypeScript starter repository",
+  "description": "File Upload Server by NestJS",
   "license": "MIT",
+  "author": "Jason Yoo <architectophile@gmail.com> (https://github.com/architectophile)",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
