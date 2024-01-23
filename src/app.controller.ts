@@ -26,7 +26,7 @@ export class AppController {
     return this.appService.getHello();
   }
 
-  @Post("upload")
+  @Post("personal/parse/json")
   @UseInterceptors(
     FileInterceptor("file", {
       storage: diskStorage({
