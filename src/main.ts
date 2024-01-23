@@ -11,7 +11,7 @@ async function bootstrap() {
   app.useGlobalPipes(new ValidationPipe());
   const server = app.getHttpServer();
   server.setTimeout(30 * 60 * 1000); // Set timeout to 30 minutes
-  await app.listen(3000);
+  await app.listen(3001);
   console.log(`Application is running on: ${await app.getUrl()}`);
 }
 bootstrap();
